@@ -30,7 +30,7 @@ const createIncompleteList = (text) => {
 
   completeButton.addEventListener("click", () => {
     // 押された完了ボタンの親タグ（div)を未完了リストから削除(関数)
-    //deleteFromIncompleteList(completeButton.parentNode);
+    deleteFromIncompleteList(completeButton.parentNode);
 
     //完了リストに追加する要素
     const addTarget = completeButton.parentNode;
